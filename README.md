@@ -14,13 +14,16 @@
 Communication Protocols: tbd</n>
 
 ## Machine Learning Model
+Supervised Machine Learning: Logistical Regression
+We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
 
 ## Database
+PostgreSQL 14
 
 ## Data Sources
 (Rev00 Income & Zipcode Data: Tony)[https://www.kaggle.com/hamishgunasekara/average-income-per-zip-code-usa-2018],
 
-(Rev01 Income & Zipcode Data: Jenny)[https://simplemaps.com/data/us-zips],
+(Rev01 Income & ZCTA Data: Jenny)[https://simplemaps.com/data/us-zips],
 
 (Rev 00 Physician & Zipcode Data: Jacqueline)[https://data.cms.gov/provider-data/dataset/mj5m-pzi6],
 
@@ -30,6 +33,11 @@ Communication Protocols: tbd</n>
 ### Jacqueline
 
 ### Jenny
+* Database Markup
+* Database choice
+* Income and ZCTA data
+* ZCTA Data Cleaning
+* Machine Learning Model
 
 ### Tony
 * The physician data had to be encoded ("ISO-8859-1") in order to work properly
