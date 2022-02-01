@@ -10,7 +10,8 @@ Questions they hope to answer with the data: Are there are zip codes in the Unit
 Communication Protocols: tbd</n>
 
 ## Machine Learning Model
-Supervised Machine Learning: 
+Supervised Machine Learning: Logistical Regression
+We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
 
 ## Database
 PostgreSQL 14
