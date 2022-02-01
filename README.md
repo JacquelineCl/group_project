@@ -10,6 +10,7 @@ Questions they hope to answer with the data: Are there are zip codes in the Unit
 Communication Protocols: tbd</n>
 
 ## Machine Learning Model
+Supervised Machine Learning: 
 
 ## Database
 PostgreSQL 14
