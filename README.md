@@ -12,7 +12,7 @@ Communication Protocols: tbd</n>
 ## Machine Learning Model
 
 ## Database
-PostgreSQL
+PostgreSQL 14
 
 ## Data Sources
 (Rev00 Income & Zipcode Data: Tony)[https://www.kaggle.com/hamishgunasekara/average-income-per-zip-code-usa-2018],
