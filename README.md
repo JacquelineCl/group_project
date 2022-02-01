@@ -12,11 +12,12 @@ Communication Protocols: tbd</n>
 ## Machine Learning Model
 
 ## Database
+PostgreSQL
 
 ## Data Sources
 (Rev00 Income & Zipcode Data: Tony)[https://www.kaggle.com/hamishgunasekara/average-income-per-zip-code-usa-2018],
 
-(Rev01 Income & Zipcode Data: Jenny)[https://simplemaps.com/data/us-zips],
+(Rev01 Income & ZCTA Data: Jenny)[https://simplemaps.com/data/us-zips],
 
 (Rev 00 Physician & Zipcode Data: Jacqueline)[https://data.cms.gov/provider-data/dataset/mj5m-pzi6],
 
@@ -26,6 +27,11 @@ Communication Protocols: tbd</n>
 ### Jacqueline
 
 ### Jenny
+* Database Markup
+* Database choice
+* Income and ZCTA data
+* ZCTA Data Cleaning
+* Machine Learning Model
 
 ### Tony
 * The physician data had to be encoded ("ISO-8859-1") in order to work properly
