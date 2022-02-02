@@ -11,21 +11,21 @@
   * Are there are zip codes in the United State that will be underserved or overserved by primary care physicians in xxx years?
 
 ## GitHub
-Communication Protocols: tbd</n>
+* Communication Protocols:
 
 ## Machine Learning Model
-Supervised Machine Learning: Logistical Regression
-We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
+* Supervised Machine Learning: Logistical Regression
+  * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
 
 ## Database
 PostgreSQL 14
 
 ## Data Sources
-(Rev00 Income & Zipcode Data: Tony)[https://www.kaggle.com/hamishgunasekara/average-income-per-zip-code-usa-2018],
+(Rev00 Income & Zipcode Data: Tony, 01-30-2022)[https://www.kaggle.com/hamishgunasekara/average-income-per-zip-code-usa-2018],
 
-(Rev01 Income & ZCTA Data: Jenny)[https://simplemaps.com/data/us-zips],
+(Rev01 Income & ZCTA Data: Jenny, 01-31-2022)[https://simplemaps.com/data/us-zips],
 
-(Rev 00 Physician & Zipcode Data: Jacqueline)[https://data.cms.gov/provider-data/dataset/mj5m-pzi6],
+(Rev 00 Physician & Zipcode Data: Jacqueline, 01-30-2022)[https://data.cms.gov/provider-data/dataset/mj5m-pzi6],
 
 ## References
 
