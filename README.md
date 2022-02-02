@@ -5,13 +5,12 @@
   * Primary care physician availability by zip code
 * Reason for selecting this topic:
   * Because meaningful access to a primary care physician can help reduce health care disparities. This research could be useful for anyone attempting to reduce health care disparities, like universities, businesses, and non-profits to help improve access to a primary care physician in underserved areas.
-* Description of data source:
-  * TBD
+* Description of data sources listed below
 * Questions to answer with the data:
   * Are there are zip codes in the United State that will be underserved or overserved by primary care physicians in xxx years?
 
 ## GitHub
-* Communication Protocols:
+* Communication Protocols: Communicate via Slack and meet in person when needed
 
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
@@ -31,6 +30,9 @@ PostgreSQL 14
 
 ## Notes
 ### Jacqueline
+* Git hub set up
+* Presentation tracking
+* The API section of the physicians website was not working. Emailed website support for resolution. Exploring alternate options for loading the data. 
 
 ### Jenny
 * Database Markup
