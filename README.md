@@ -17,7 +17,7 @@
   * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
 
 ## Database
-PostgreSQL 14
+PostgreSQL 11
 
 ## Data Sources
 (Rev00 Income & Zipcode Data: Tony, 01-30-2022)[https://www.kaggle.com/hamishgunasekara/average-income-per-zip-code-usa-2018],
