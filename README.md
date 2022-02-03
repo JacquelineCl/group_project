@@ -19,6 +19,9 @@
 ## Database
 PostgreSQL 11
 
+![image](https://user-images.githubusercontent.com/67409852/152433788-672e08fb-289d-4d6c-8b03-76305636213f.png)
+
+
 ## Data Sources
 (Rev00 Income & Zipcode Data: Tony, 01-30-2022)[https://www.kaggle.com/hamishgunasekara/average-income-per-zip-code-usa-2018],
 
