@@ -2,12 +2,13 @@
 
 ## Presentation
 * Selected topic:
-  * Primary care physician availability by zip code
+  * Health Care Disparities - Primary Care Access Analysis
 * Reason for selecting this topic:
   * Because meaningful access to a primary care physician can help reduce health care disparities. This research could be useful for anyone attempting to reduce health care disparities, like universities, businesses, and non-profits to help improve access to a primary care physician in underserved areas.
 * Description of data sources listed below
 * Questions to answer with the data:
-  * Are there are zip codes in the United State that will be underserved (less than 5 per population) or overserved (more than 150 per population) by primary care physicians?
+  * Are there are counties in the United State that will be underserved (less than 5 per population) by primary care providers in the United States?
+  * Are there any other factors that impact availability, like income, region, or population?
 
 ## GitHub
 * Communication Protocols: Communicate via Slack and meet in person when needed
@@ -35,9 +36,8 @@ PostgreSQL 11
 
 ## Notes
 ### Jacqueline
-* Git hub set up
-* Presentation tracking
-* The API section of the physicians website was not working. Emailed website support for resolution. Exploring alternate options for loading the data. 
+* The API section of the physicians website was not working. Emailed website support for resolution. Exploring alternate options for loading the data. Decided to use the downloadable file. 
+* Population density vs Urban/Rural categories.
 
 ### Jenny
 * Database Markup
