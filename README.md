@@ -26,11 +26,17 @@ PostgreSQL 11
 
 
 ## Data Sources
-(Rev00 Income & Zipcode Data: Tony, 01-30-2022)[https://www.kaggle.com/hamishgunasekara/average-income-per-zip-code-usa-2018],
+(Income)[https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=30&isuri=1&major_area=4&area=xx&year=2020&tableid=20&category=720&area_type=4&year_end=-1&classification=non-industry&state=xx&statistic=3&yearbegin=-1&unit_of_measure=levels],
 
-(Rev01 Income & ZCTA Data: Jenny, 01-31-2022)[https://simplemaps.com/data/us-zips],
+(Population)[https://covid19.census.gov/datasets/average-household-size-and-population-density-county/explore?location=18.793911%2C0.315550%2C3.67&showTable=true],
 
-(Rev 00 Physician & Zipcode Data: Jacqueline, 01-30-2022)[https://data.cms.gov/provider-data/dataset/mj5m-pzi6],
+(Zip Codes)[https://simplemaps.com/data/us-zips],
+
+(Physician)[https://data.cms.gov/provider-data/dataset/mj5m-pzi6],
+
+(Regions)[https://www.bea.gov/news/2015/gross-domestic-product-state-advance-2014-and-revised-1997-2013/regional-maps],
+
+(Regions)[https://www.businessinsider.com/regions-of-united-states-2018-5#lastly-the-petroleum-administration-for-defense-uses-this-map-of-five-regions-originally-drawn-up-in-1942-to-ration-the-countrys-gasoline-10],
 
 ## References
 
@@ -47,7 +53,18 @@ PostgreSQL 11
 * Machine Learning Model
 
 ### Tony
-* The physician data had to be encoded ("ISO-8859-1") in order to work properly
-* The number of digits in the zip code ranged from 3-9.  In order to standardize the data, we created functions to either add 1-2 zeroes in front or remove the additional four digits at the end.  In some cases, both were necessary.
-* Groupby and Transform were used to create a "doctor_count" column.  This is the total number of doctors per zip.
-* Another additional column was added to calculate "doctor_per_pop", but the group should discuss the best method for this column.
+* Sources for Income & Population
+* Data Cleaning & Merging:
+  * Physician Data:
+    * Filters applied to website prior to downloading csv file:
+      * npi
+      * grd_yr
+      * pri_spec
+      * cty
+      * st
+      * zip
+      * ind_assgn
+      * grp_assgn
+    * The data had to be encoded "ISO-8859-1" in order to work properly
+  * Income Data:
+    * Header (prior to csv being read in) and Footer rows needed removal
