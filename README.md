@@ -13,17 +13,16 @@
 ## GitHub
 * Communication Protocols: Communicate via Slack and meet in person when needed
 
-## Machine Learning Model
-* Supervised Machine Learning: Logistical Regression
-  * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
+## Conceptual ERD
 
-![image](https://user-images.githubusercontent.com/67409852/152436859-5d43d487-2a84-4279-86bd-0e447a7a5f0d.png)
+![image](https://user-images.githubusercontent.com/67409852/153738605-b5d3416a-2c71-4bd6-91fa-a41d292e1062.png)
 
 ## Database
 PostgreSQL 11
 
-![image](https://user-images.githubusercontent.com/67409852/152433788-672e08fb-289d-4d6c-8b03-76305636213f.png)
-
+## Machine Learning Model
+* Supervised Machine Learning: Logistical Regression
+  * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
 
 ## Data Sources
 (Income)[https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=30&isuri=1&major_area=4&area=xx&year=2020&tableid=20&category=720&area_type=4&year_end=-1&classification=non-industry&state=xx&statistic=3&yearbegin=-1&unit_of_measure=levels],
