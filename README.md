@@ -20,6 +20,8 @@
 ## Database
 PostgreSQL 11
 
+![image](https://user-images.githubusercontent.com/67409852/153800801-c78f952b-5490-446e-b5b3-cef312343e26.png)
+
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
   * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
