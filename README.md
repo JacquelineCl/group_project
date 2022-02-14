@@ -20,6 +20,8 @@
 ## Database
 PostgreSQL 11
 
+![image](https://user-images.githubusercontent.com/67409852/153801216-8b1cbe25-ceef-4d1d-bac6-87559d2091e9.png)
+
 ![image](https://user-images.githubusercontent.com/67409852/153800801-c78f952b-5490-446e-b5b3-cef312343e26.png)
 
 ## Machine Learning Model
