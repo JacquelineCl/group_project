@@ -56,13 +56,12 @@ Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly
 * Tableau Dashboard and PowerPoint
 
 ### Jenny
-* Database Markup
-* Database Choice
+* PostgreSQL Database 
 * Conceptual ERD
 * Income and ZCTA data
-* ZCTA Data Cleaning
+* Data Cleaning
 * Machine Learning Model
-* R-squared scatterplot
+* Analysis Summary
 
 ### Tony
 * Sources for Income & Population
