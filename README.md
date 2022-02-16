@@ -51,7 +51,8 @@ PostgreSQL 11
 
 ### Jenny
 * Database Markup
-* Database choice
+* Database Choice
+* Conceptual ERD
 * Income and ZCTA data
 * ZCTA Data Cleaning
 * Machine Learning Model
