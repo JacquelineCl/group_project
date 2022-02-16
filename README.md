@@ -15,7 +15,7 @@
 
 ## Conceptual ERD
 
-![image](https://user-images.githubusercontent.com/67409852/153738605-b5d3416a-2c71-4bd6-91fa-a41d292e1062.png)
+![image](https://user-images.githubusercontent.com/67409852/154198076-c2c68d4c-dfb5-40a6-b210-58d87c840251.png)
 
 ## Database
 PostgreSQL 11
