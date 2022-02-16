@@ -63,6 +63,7 @@ Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly
 * Income and ZCTA data
 * ZCTA Data Cleaning
 * Machine Learning Model
+* R-squared scatterplot
 
 ### Tony
 * Sources for Income & Population
