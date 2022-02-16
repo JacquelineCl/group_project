@@ -47,6 +47,7 @@ PostgreSQL 11
 ### Jacqueline
 * The API section of the physicians website was not working. Emailed website support for resolution. Exploring alternate options for loading the data. Decided to use the downloadable file. 
 * Population density vs Urban/Rural categories.
+* Machine Learning Model
 
 ### Jenny
 * Database Markup
