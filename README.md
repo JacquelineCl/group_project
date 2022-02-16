@@ -19,6 +19,7 @@
 
 ## Database
 PostgreSQL 11
+* three merged csv files with added columns for further data exploration and storage
 
 ![image](https://user-images.githubusercontent.com/67409852/153801216-8b1cbe25-ceef-4d1d-bac6-87559d2091e9.png)
 
