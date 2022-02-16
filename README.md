@@ -1,6 +1,6 @@
 # Health Care Disparities - Primary Care Access Analysis
 
-## Presentation
+## Overview
 * Selected topic:
   * Health Care Disparities - Primary Care Access Analysis
 * Reason for selecting this topic:
@@ -41,9 +41,12 @@ Regions: [https://www.bea.gov/news/2015/gross-domestic-product-state-advance-201
 
 Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly-the-petroleum-administration-for-defense-uses-this-map-of-five-regions-originally-drawn-up-in-1942-to-ration-the-countrys-gasoline-10],
 
+## Analysis Results and Summary
+
 ## References
 
 ## Notes
+
 ### Jacqueline
 * The API section of the physicians website was not working. Emailed website support for resolution. Exploring alternate options for loading the data. Decided to use the downloadable file. 
 * Population density vs Urban/Rural categories.
