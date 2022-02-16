@@ -22,7 +22,7 @@ PostgreSQL 11
 
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
-  * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, zip codes that will be underserved by primary care physicians, and zip codes that will be overserved by primary care physicians.
+  * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, counties that will be underserved by primary care physicians, and counties that will be appropriately served by primary care physicians.
 * Accuracy score: 89.6%
 * R-squared score: 58.3%
 
