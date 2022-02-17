@@ -20,6 +20,8 @@
 ## Database
 PostgreSQL 11
 
+![image](https://user-images.githubusercontent.com/67409852/154407213-14eecbba-119d-43bb-8f87-f643338bec82.png)
+
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
   * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, counties that will be underserved by primary care physicians, and counties that will be appropriately served by primary care physicians.
