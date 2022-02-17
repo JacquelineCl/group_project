@@ -44,6 +44,10 @@ Regions: [https://www.bea.gov/news/2015/gross-domestic-product-state-advance-201
 Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly-the-petroleum-administration-for-defense-uses-this-map-of-five-regions-originally-drawn-up-in-1942-to-ration-the-countrys-gasoline-10],
 
 ## Analysis Results and Summary
+Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United State that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of 89.6%, the amount of primary care physicians per capita (county). With a r2 score of 58.3%, the model will predict new data points around 60% of the time, showing the model is not prone to overfitting. 
+To add:
+- What percentage of counties are underserved
+- What percentage of counties are appropriately served
 
 ## References
 
