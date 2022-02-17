@@ -20,7 +20,7 @@
 ## Database
 PostgreSQL 11
 
-![image](https://user-images.githubusercontent.com/67409852/154412261-6c10c09e-f8cb-4163-b5b1-9866bd79537d.png)
+![image](https://user-images.githubusercontent.com/67409852/154578261-ae821af4-9000-4e11-ae76-958689a9ca9c.png)
 
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
@@ -46,8 +46,8 @@ Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly
 ## Analysis Results and Summary
 Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United State that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of 89.6%, the amount of primary care physicians per capita (county). With a r2 score of 58.3%, the model will predict new data points around 60% of the time, showing the model is not prone to overfitting. 
 To add:
-- What percentage of counties are underserved
-- What percentage of counties are appropriately served
+- What percentage of counties are underserved?
+- What percentage of counties are appropriately served?
 
 ## References
 
@@ -85,3 +85,4 @@ To add:
     * The data had to be encoded "ISO-8859-1" in order to work properly
   * Income Data:
     * Header (prior to csv being read in) and Footer rows needed removal
+  * PostgreSQL Database
