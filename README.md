@@ -15,7 +15,7 @@
 
 ## Conceptual ERD
 
-![image](https://user-images.githubusercontent.com/67409852/154211418-d9803d38-67b5-44a7-a052-88e21bf3a2b2.png)
+![image](https://user-images.githubusercontent.com/67409852/154579881-44d03c5b-2a0f-42bb-b6e0-8a4b2d622aa2.png)
 
 ## Database
 PostgreSQL 11
@@ -62,12 +62,12 @@ To add:
 * Tableau Dashboard and PowerPoint
 
 ### Jenny
-* PostgreSQL Database 
 * Conceptual ERD
 * Income and ZCTA data
 * Data Cleaning
 * Machine Learning Model
 * Analysis Summary
+* PostgreSQL Database 
 
 ### Tony
 * Sources for Income & Population
