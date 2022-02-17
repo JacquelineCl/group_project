@@ -20,7 +20,7 @@
 ## Database
 PostgreSQL 11
 
-![image](https://user-images.githubusercontent.com/67409852/154407213-14eecbba-119d-43bb-8f87-f643338bec82.png)
+![image](https://user-images.githubusercontent.com/67409852/154412261-6c10c09e-f8cb-4163-b5b1-9866bd79537d.png)
 
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
