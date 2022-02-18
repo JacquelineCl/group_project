@@ -24,7 +24,7 @@ PostgreSQL 11
 
 ## Merged DataFrame from PostgreSQL
 
-![image](https://user-images.githubusercontent.com/67409852/154594128-105672d4-9166-433b-8334-dc3ce2ed68bd.png)
+![image](https://user-images.githubusercontent.com/67409852/154594548-06c1c284-1284-492b-a761-c2453bea59d5.png)
 
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
