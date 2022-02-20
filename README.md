@@ -69,7 +69,7 @@ To add:
 * Conceptual ERD
 * Income and ZCTA data
 * Data Cleaning
-* Machine Learning Model
+* Machine Learning Model and Hyper Tuning
 * Analysis Summary
 * PostgreSQL Database 
 
