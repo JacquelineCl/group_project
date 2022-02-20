@@ -34,6 +34,12 @@ PostgreSQL 11
 
 ![image](https://user-images.githubusercontent.com/67409852/154203477-0df29c6d-59cb-444a-8c9a-96c99ec7fb56.png)
 
+After Hyper Tuning (stratifying data and increasing estimators from 100 to 200)
+* Accuracy score: 91.8%
+* R-squared score: 67.3%
+
+![image](https://user-images.githubusercontent.com/67409852/154868594-716fba52-3934-4a83-b045-e88bb85310ef.png)
+
 ## Data Sources
 Income: [https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=30&isuri=1&major_area=4&area=xx&year=2020&tableid=20&category=720&area_type=4&year_end=-1&classification=non-industry&state=xx&statistic=3&yearbegin=-1&unit_of_measure=levels],
 
