@@ -34,7 +34,7 @@ PostgreSQL 11
 
 ![image](https://user-images.githubusercontent.com/67409852/154203477-0df29c6d-59cb-444a-8c9a-96c99ec7fb56.png)
 
-After Hyper Tuning (stratifying data and increasing estimators from 100 to 200)
+### After Hyper Tuning (stratifying data and increasing estimators from 100 to 200)
 * Accuracy score: 91.8%
 * R-squared score: 67.3%
 
