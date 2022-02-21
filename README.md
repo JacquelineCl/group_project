@@ -10,9 +10,6 @@
   * Are there are counties in the United State that will be underserved (less than 5 per population) by primary care providers in the United States?
   * Are there any other factors that impact availability, like income, region, or population?
 
-## GitHub
-* Communication Protocols: Communicate via Slack and meet in person when needed
-
 ## Conceptual ERD
 
 ![image](https://user-images.githubusercontent.com/67409852/154579881-44d03c5b-2a0f-42bb-b6e0-8a4b2d622aa2.png)
@@ -66,10 +63,9 @@ To add:
 ## Roles:
 
 ### Jacqueline
-* The API section of the physicians website was not working. Emailed website support for resolution. Exploring alternate options for loading the data. Decided to use the downloadable file. 
-* Population density vs Urban/Rural categories.
 * Machine Learning Model
-* Tableau Dashboard and PowerPoint
+* Tableau Dashboard
+* Presentation
 
 ### Jenny
 * Conceptual ERD
