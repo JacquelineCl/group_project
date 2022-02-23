@@ -80,7 +80,7 @@ According to the data, any county with 0.488 primary care physicians per capita 
 
 ### Tony
 * Sources for Income & Population
-* Data Cleaning & Merging:
+* Data Cleaning:
   * Physician Data:
     * Filters applied to website prior to downloading csv file:
       * npi
@@ -92,6 +92,23 @@ According to the data, any county with 0.488 primary care physicians per capita 
       * ind_assgn
       * grp_assgn
     * The data had to be encoded "ISO-8859-1" in order to work properly
+    * Filtering criteria for Primary Care Physician:
+      * FAMILY MEDICINE
+      * NURSE PRACTITIONER
+      * GENERAL PRACTICE
+      * PREVENTATIVE MEDICINE
+      * EMERGENCY MEDICINE
+      * PHYSICIAN ASSISTANT
+      * INTERNAL MEDICINE
+      * PEDIATRIC MEDICINE
+      * OBSTETRICS/GYNECOLOGY
   * Income Data:
     * Header (prior to csv being read in) and Footer rows needed removal
-  * PostgreSQL Database
+* Merging & Additional Steps
+  * Calculate number of physicians per county
+  * Calculate physicians per capita
+  * Group population density in equally sized bins
+  * Group states by region
+  * Define "underserved" as the mean of physicians per capita minus one standard deviation (0.488)
+  * Create bins for physicians per capita
+* PostgreSQL Database
