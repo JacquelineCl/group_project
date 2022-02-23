@@ -7,7 +7,7 @@
   * Because meaningful access to a primary care physician can help reduce health care disparities. This research could be useful for anyone attempting to reduce health care disparities, like universities, businesses, and non-profits to help improve access to a primary care physician in underserved areas.
 * Description of data sources listed below
 * Questions to answer with the data:
-  * Are there are counties in the United State that will be underserved (less than 5 per population) by primary care providers in the United States?
+  * Are there are counties in the United State that will be underserved by primary care providers in the United States?
   * Are there any other factors that impact availability, like income, region, or population?
 
 ## Conceptual ERD
