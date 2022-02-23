@@ -26,16 +26,8 @@ PostgreSQL 11
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
   * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, counties that will be underserved by primary care physicians, and counties that will be appropriately served by primary care physicians.
-* Accuracy score: 89.6%
-* R-squared score: 58.3%
-
-![image](https://user-images.githubusercontent.com/67409852/154203477-0df29c6d-59cb-444a-8c9a-96c99ec7fb56.png)
-
-### After Hyper Tuning (stratifying data and increasing estimators from 100 to 200)
-* Accuracy score: 91.8%
-* R-squared score: 67.3%
-
-![image](https://user-images.githubusercontent.com/67409852/154868594-716fba52-3934-4a83-b045-e88bb85310ef.png)
+* Accuracy score: 
+* R-squared score: 
 
 ## Data Sources
 Income: [https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=30&isuri=1&major_area=4&area=xx&year=2020&tableid=20&category=720&area_type=4&year_end=-1&classification=non-industry&state=xx&statistic=3&yearbegin=-1&unit_of_measure=levels],
@@ -51,9 +43,9 @@ Regions: [https://www.bea.gov/news/2015/gross-domestic-product-state-advance-201
 Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly-the-petroleum-administration-for-defense-uses-this-map-of-five-regions-originally-drawn-up-in-1942-to-ration-the-countrys-gasoline-10],
 
 ## Analysis Results and Summary
-Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of 91.8%, the amount of primary care physicians per capita. With a r2 score of 67.3%, the model will predict new data points around 70% of the time, showing the model is not prone to overfitting. 
+Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of (add)
 
-According to the data, any county with 0.488 primary care physicians per capita or less is "underserved". Out of 3,092 counties, 148 are underserved, or around 5% of all counties, while 2881 counties, or ~95% of counties are appropriately served.
+According to the data, any county with 0.488 primary care physicians per capita or less is "underserved". Out of 3,092 counties, 148 are underserved, or ~5% of all counties, while 2881 counties, or ~95% of counties are appropriately served.
 
 ![image](https://user-images.githubusercontent.com/67409852/155261745-376a9a31-1e1e-4a56-a54e-3296e236bb6c.png)
 
