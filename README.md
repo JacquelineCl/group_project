@@ -51,13 +51,13 @@ Regions: [https://www.bea.gov/news/2015/gross-domestic-product-state-advance-201
 Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly-the-petroleum-administration-for-defense-uses-this-map-of-five-regions-originally-drawn-up-in-1942-to-ration-the-countrys-gasoline-10],
 
 ## Analysis Results and Summary
-Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of 91.8%, the amount of primary care physicians per capita (county). With a r2 score of 67.3%, the model will predict new data points around 70% of the time, showing the model is not prone to overfitting. 
+Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of 91.8%, the amount of primary care physicians per capita. With a r2 score of 67.3%, the model will predict new data points around 70% of the time, showing the model is not prone to overfitting. 
 
 According to the data, any county with 0.488 primary care physicians per capita or less is "underserved". Out of 3,092 counties, 148 are underserved, or around 5% of all counties, while 2881 counties, or ~95% of counties are appropriately served.
 
-![image](https://user-images.githubusercontent.com/67409852/155261513-a3b704ee-9511-422c-8186-f2e94538c9d2.png)
-
 ![image](https://user-images.githubusercontent.com/67409852/155261745-376a9a31-1e1e-4a56-a54e-3296e236bb6c.png)
+
+![image](https://user-images.githubusercontent.com/67409852/155261513-a3b704ee-9511-422c-8186-f2e94538c9d2.png)
 
 ## References
 
