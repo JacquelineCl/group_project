@@ -56,6 +56,10 @@ To add:
 - What percentage of counties are underserved?
 - What percentage of counties are appropriately served?
 
+![image](https://user-images.githubusercontent.com/67409852/155261513-a3b704ee-9511-422c-8186-f2e94538c9d2.png)
+
+
+
 ## References
 
 ## Notes
