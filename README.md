@@ -52,9 +52,8 @@ Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly
 
 ## Analysis Results and Summary
 Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of 91.8%, the amount of primary care physicians per capita (county). With a r2 score of 67.3%, the model will predict new data points around 70% of the time, showing the model is not prone to overfitting. 
-To add:
-- What percentage of counties are underserved?
-- What percentage of counties are appropriately served?
+
+According to the data, any county with 0.488 primary care physicians per capita or less is "underserved". Out of 3,092 counties, 148 are underserved, or around 5% of all counties, while 2881 counties, or ~95% of counties are appropriately served.
 
 ![image](https://user-images.githubusercontent.com/67409852/155261513-a3b704ee-9511-422c-8186-f2e94538c9d2.png)
 
