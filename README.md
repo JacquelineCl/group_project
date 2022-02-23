@@ -7,11 +7,8 @@
   * Because meaningful access to a primary care physician can help reduce health care disparities. This research could be useful for anyone attempting to reduce health care disparities, like universities, businesses, and non-profits to help improve access to a primary care physician in underserved areas.
 * Description of data sources listed below
 * Questions to answer with the data:
-  * Are there are counties in the United State that will be underserved (less than 5 per population) by primary care providers in the United States?
+  * Are there are counties in the United State that will be underserved by primary care providers in the United States?
   * Are there any other factors that impact availability, like income, region, or population?
-
-## GitHub
-* Communication Protocols: Communicate via Slack and meet in person when needed
 
 ## Conceptual ERD
 
@@ -34,6 +31,12 @@ PostgreSQL 11
 
 ![image](https://user-images.githubusercontent.com/67409852/154203477-0df29c6d-59cb-444a-8c9a-96c99ec7fb56.png)
 
+### After Hyper Tuning (stratifying data and increasing estimators from 100 to 200)
+* Accuracy score: 91.8%
+* R-squared score: 67.3%
+
+![image](https://user-images.githubusercontent.com/67409852/154868594-716fba52-3934-4a83-b045-e88bb85310ef.png)
+
 ## Data Sources
 Income: [https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=30&isuri=1&major_area=4&area=xx&year=2020&tableid=20&category=720&area_type=4&year_end=-1&classification=non-industry&state=xx&statistic=3&yearbegin=-1&unit_of_measure=levels],
 
@@ -48,7 +51,7 @@ Regions: [https://www.bea.gov/news/2015/gross-domestic-product-state-advance-201
 Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly-the-petroleum-administration-for-defense-uses-this-map-of-five-regions-originally-drawn-up-in-1942-to-ration-the-countrys-gasoline-10],
 
 ## Analysis Results and Summary
-Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United State that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of 89.6%, the amount of primary care physicians per capita (county). With a r2 score of 58.3%, the model will predict new data points around 60% of the time, showing the model is not prone to overfitting. 
+Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, with an accuracy score of 91.8%, the amount of primary care physicians per capita (county). With a r2 score of 67.3%, the model will predict new data points around 70% of the time, showing the model is not prone to overfitting. 
 To add:
 - What percentage of counties are underserved?
 - What percentage of counties are appropriately served?
@@ -60,16 +63,15 @@ To add:
 ## Roles:
 
 ### Jacqueline
-* The API section of the physicians website was not working. Emailed website support for resolution. Exploring alternate options for loading the data. Decided to use the downloadable file. 
-* Population density vs Urban/Rural categories.
 * Machine Learning Model
-* Tableau Dashboard and PowerPoint
+* Tableau Dashboard
+* Presentation
 
 ### Jenny
 * Conceptual ERD
 * Income and ZCTA data
 * Data Cleaning
-* Machine Learning Model
+* Machine Learning Model and Hyper Tuning
 * Analysis Summary
 * PostgreSQL Database 
 
