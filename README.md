@@ -28,7 +28,7 @@ Solutions to primary care physician disparities might include: (add)
 
 ## Tableau Dashboard
 
-## Presenation
+## Presentation
 
 ## Technologies
 
