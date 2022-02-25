@@ -28,10 +28,9 @@ According to the data, any county with 0.488 primary care physicians per capita 
 
 ## Presentation
 
-## Tools
+## Tools and Technologies Used
 Jupyter Notebook, Python, Pandas, Mathplotlib, NumPy, Pathlib, Collections, Sklearn.metrics, Tableau, PostgreSQL, Quick DBD
 
-## Technologies
 ### Conceptual Entity Relationship Diagram 
 ERD showing relationships between tabular data sources
 
