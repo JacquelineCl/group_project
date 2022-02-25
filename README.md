@@ -33,7 +33,7 @@ Solutions to primary care physician disparities might include: virtual healthcar
 ## Presentation
 
 ## Tools Used
-Jupyter Notebook, Python, Pandas, Mathplotlib, NumPy, Pathlib, Sklearn.metrics, Tableau, PostgreSQL, Quick DBD
+Jupyter Notebook, Python, Pandas, Matplotlib, NumPy, Pathlib, Sklearn.metrics, Tableau, PostgreSQL, Quick DBD
 
 ## Conceptual Entity Relationship Diagram 
 ERD showing relationships between tabular data sources
@@ -55,6 +55,7 @@ PostgreSQL 11 used to house and query data
 https://www.census.gov/popclock/
 
 ## Notes
+* Filtering criteria in primary specialty to define primary care physician are family medicine, nurse practitioner, general practice, preventative medicine, emergency medicine, physician assistant, internal medicine, pediatrice medicine, obstetrics / gynecology
 
 ## Roles:
 
@@ -73,35 +74,5 @@ https://www.census.gov/popclock/
 
 ### Tony
 * Sources for Income & Population
-* Data Cleaning:
-  * Physician Data:
-    * Filters applied to website prior to downloading csv file:
-      * npi
-      * grd_yr
-      * pri_spec
-      * cty
-      * st
-      * zip
-      * ind_assgn
-      * grp_assgn
-    * The data had to be encoded "ISO-8859-1" in order to work properly
-    * Filtering criteria for Primary Care Physician:
-      * FAMILY MEDICINE
-      * NURSE PRACTITIONER
-      * GENERAL PRACTICE
-      * PREVENTATIVE MEDICINE
-      * EMERGENCY MEDICINE
-      * PHYSICIAN ASSISTANT
-      * INTERNAL MEDICINE
-      * PEDIATRIC MEDICINE
-      * OBSTETRICS/GYNECOLOGY
-  * Income Data:
-    * Header (prior to csv being read in) and Footer rows needed removal
-* Merging & Additional Steps
-  * Calculate number of physicians per county
-  * Calculate physicians per capita
-  * Group population density in equally sized bins
-  * Group states by region
-  * Define "underserved" as the mean of physicians per capita minus one standard deviation (0.488)
-  * Create bins for physicians per capita
+* Data Cleaning & Merging
 * PostgreSQL Database
