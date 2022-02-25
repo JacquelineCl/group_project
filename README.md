@@ -1,14 +1,7 @@
 # Health Care Disparities - Primary Care Access Analysis
 
 ## Overview
-* Selected topic:
-  * Health Care Disparities - Primary Care Access Analysis
-* Reason for selecting this topic:
-  * Because meaningful access to a primary care physician can help reduce health care disparities. This research could be useful for anyone attempting to reduce health care disparities, like universities, businesses, and non-profits to help improve access to a primary care physician in underserved areas.
-* Description of data sources listed below
-* Questions to answer with the data:
-  * Are there are counties in the United State that will be underserved by primary care providers in the United States?
-  * Are there any other factors that impact availability, like income, region, or population?
+![image](https://user-images.githubusercontent.com/67409852/155636523-5070e701-cf1b-4715-b3c7-b440497e2469.png)
 
 ## Analysis Results and Summary
 Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, a logistics regression model using oversampling, produces an accuracy score of 99.9% and a r-squared score of 93.8%. This model will predict if a county is under-served/appropriately served 99.9% of the time and can predict new data points 93.8% of the time. 
