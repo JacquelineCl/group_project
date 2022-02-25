@@ -26,8 +26,12 @@ PostgreSQL 11
 ## Machine Learning Model
 * Supervised Machine Learning: Logistical Regression
   * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistical Regression will separate the data into two categories, counties that will be underserved by primary care physicians, and counties that will be appropriately served by primary care physicians.
-* Accuracy score: 
-* R-squared score: 
+* Accuracy score: 99.9%
+* R-squared score: 93.8%
+
+![image](https://user-images.githubusercontent.com/67409852/155629836-9228fc37-9503-4e67-89c9-416490144e39.png)
+
+![image](https://user-images.githubusercontent.com/67409852/155629939-4a7dd7f4-edcb-468a-b076-66d02f3321b4.png)
 
 ## Data Sources
 Income: [https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=30&isuri=1&major_area=4&area=xx&year=2020&tableid=20&category=720&area_type=4&year_end=-1&classification=non-industry&state=xx&statistic=3&yearbegin=-1&unit_of_measure=levels],
