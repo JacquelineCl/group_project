@@ -26,22 +26,23 @@ Solutions to primary care physician disparities might include: (add)
 
 ![image](https://user-images.githubusercontent.com/67409852/155629939-4a7dd7f4-edcb-468a-b076-66d02f3321b4.png)
 
-## 
+## Technologies
 
-## Conceptual ERD
+### Conceptual Entity Relationship Diagram 
+ERD showing relationships between tabular data sources
 
 ![image](https://user-images.githubusercontent.com/67409852/154579881-44d03c5b-2a0f-42bb-b6e0-8a4b2d622aa2.png)
 
-## Database
-PostgreSQL 11
+### Database
+PostgreSQL 11 used to house and query data
 
 ![image](https://user-images.githubusercontent.com/67409852/154578261-ae821af4-9000-4e11-ae76-958689a9ca9c.png)
 
-## Merged DataFrame from PostgreSQL
+### Merged DataFrame from PostgreSQL
 
 ![image](https://user-images.githubusercontent.com/67409852/154594548-06c1c284-1284-492b-a761-c2453bea59d5.png)
 
-## Data Sources
+### Data Sources
 
 ![image](https://user-images.githubusercontent.com/67409852/155635937-3f600f33-2276-47d8-926e-02c732b3c5a8.png)
 
