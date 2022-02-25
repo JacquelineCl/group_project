@@ -34,17 +34,8 @@ PostgreSQL 11
 ![image](https://user-images.githubusercontent.com/67409852/155629939-4a7dd7f4-edcb-468a-b076-66d02f3321b4.png)
 
 ## Data Sources
-Income: [https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=30&isuri=1&major_area=4&area=xx&year=2020&tableid=20&category=720&area_type=4&year_end=-1&classification=non-industry&state=xx&statistic=3&yearbegin=-1&unit_of_measure=levels],
 
-Population: [https://covid19.census.gov/datasets/average-household-size-and-population-density-county/explore?location=18.793911%2C0.315550%2C3.67&showTable=true],
-
-Zip Codes: [https://simplemaps.com/data/us-zips],
-
-Physician: [https://data.cms.gov/provider-data/dataset/mj5m-pzi6],
-
-Regions: [https://www.bea.gov/news/2015/gross-domestic-product-state-advance-2014-and-revised-1997-2013/regional-maps],
-
-Regions: [https://www.businessinsider.com/regions-of-united-states-2018-5#lastly-the-petroleum-administration-for-defense-uses-this-map-of-five-regions-originally-drawn-up-in-1942-to-ration-the-countrys-gasoline-10],
+![image](https://user-images.githubusercontent.com/67409852/155635937-3f600f33-2276-47d8-926e-02c732b3c5a8.png)
 
 ## Analysis Results and Summary
 Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, a logistics regression model using oversampling, produces an accuracy score of 99.9% and a r-squared score of 93.8%. This model will predict if a county is under-served/appropriately served 99.9% of the time and can predict new data points 93.8% of the time. 
