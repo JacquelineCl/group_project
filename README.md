@@ -29,8 +29,11 @@ Solutions to primary care physician disparities might include: virtual healthcar
 ![image](https://user-images.githubusercontent.com/67409852/155629939-4a7dd7f4-edcb-468a-b076-66d02f3321b4.png)
 
 ## Tableau Dashboard
+A [tableau dashboard](https://public.tableau.com/views/Healthcare_Dispariities_Primary_Care_Access_Analysis/PCPAvailabilityDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) was creatd to visualize the data and allow for easy filtering by region and state.
+![image](tbd)
 
 ## Presentation
+A [presentation](https://github.com/JacquelineCl/group_project/blob/d4a807b343b765d84245a390c60ad5821ff8860a/Resources/Healthcare_Disparities_Primary_Care_Access_Analysis.pdf) further outlines our approach, analysis, and results. LINK
 
 ## Tools Used
 Jupyter Notebook, Python, Pandas, Matplotlib, NumPy, Pathlib, Sklearn.metrics, Tableau, PostgreSQL, Quick DBD
@@ -48,7 +51,6 @@ PostgreSQL 11 used to house and query data
 ![image](https://user-images.githubusercontent.com/67409852/154594548-06c1c284-1284-492b-a761-c2453bea59d5.png)
 
 ## Data Sources
-
 ![image](https://user-images.githubusercontent.com/67409852/155635937-3f600f33-2276-47d8-926e-02c732b3c5a8.png)
 
 ## References
