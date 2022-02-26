@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/67409852/155636523-5070e701-cf1b-4715-b3c7-b440497e2469.png)
 
 ## Analysis Results and Summary
-Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, a logistic regression model using oversampling produces an accuracy score of 99.9% and a r-squared score of 93.8%. This model will predict if a county is under-served/appropriately served 99.9% of the time and can predict new data points 93.8% of the time. 
+Disparities in healthcare are an every day reality in the United States so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, a logistic regression model using oversampling produces an accuracy score of 99.9% and a r-squared score of 93.8%. This model will predict if a county is underserved or appropriately served 99.9% of the time and can predict new data points 93.8% of the time. 
 
 ![image](https://user-images.githubusercontent.com/67409852/155261745-376a9a31-1e1e-4a56-a54e-3296e236bb6c.png)
 
@@ -12,7 +12,7 @@ Disparities in healthcare are an every day reality in the United States so ident
 
 Due to the data being split 19:1, the model must include oversampling and the removal of extraneous data. Before the logistic regression model included oversampling, the accuracy score was 96.2%, however, the r-squared score was -.077%, meaning the model was an exceptionally poor fit and could not predict new data points with accuracy. Hyper tuning using SMOTE (Synthetic Minority Oversampling Technique) random oversampling and SMOTEENN (oversampling using SMOTE and cleaning using Edited Nearest Neighbor) using combination sampling does not improve the accuracy score or r-squared score of the model (both remain the same), and undersampling using random undersampling or cluster centroids undersampling lowers the accuracy score and drastically lowers the r-squared score, meaning the model is no longer a good fit and can no longer accurately predict new data. For this reason, undersampling the data should be avoided. 
 
-According to the data, any county with 0.488 primary care physicians per capita or less is "underserved". Out of 3,092 counties, 148 are underserved, or ~5% of all counties, while 2881 counties, or ~95% of counties are appropriately served. While having 95% of the population adequately served is good, 5% of Americans being underserved means over 17 million Americans do not have access to a primary care physician. A primary care physician is defined as someone who can perform basic medical tests to evaluate a person's overall health. A primary care physician might be a traditional PCP, an internal medicine specialist, a nurse practitioner, a family medicine specialist, a pdiatrician, or an OBGYN (for women).
+According to the data, any county with 0.488 primary care physicians per capita or less is "underserved". Out of 3,092 counties, 148 are underserved, or ~5% of all counties, while 2881 counties, or ~95% of counties are appropriately served. While having 95% of the population adequately served is good, 5% of Americans being underserved means over 17 million Americans do not have access to a primary care physician. A primary care physician is defined as someone who can perform basic medical tests to evaluate a person's overall health. A primary care physician could specialize in family medicine, nurse practitioner, general practice, preventative medicine, emergency medicine, physician assistant, internal medicine, pediatrice medicine, obstetrics, or gynecology.
 
 ![image](https://user-images.githubusercontent.com/67409852/155660829-1977726b-b89a-4ad8-9aaf-edb1ceb451ae.png)
 
@@ -33,7 +33,7 @@ A [tableau dashboard](https://public.tableau.com/views/Healthcare_Dispariities_P
 ![image](Resources/Tableau_dashboard.png)
 
 ## Presentation
-A [presentation](Resources/Healthcare_Disparities_Primary_Care_Access_Analysis.pdf) further outlines our approach, analysis, and results. LINK
+A [presentation](Resources/Healthcare_Disparities_Primary_Care_Access_Analysis.pdf) further outlines our approach, analysis, and results.
 
 ## Tools Used
 Jupyter Notebook, Python, Pandas, Matplotlib, NumPy, Pathlib, Sklearn.metrics, Tableau, PostgreSQL, Quick DBD
@@ -58,6 +58,8 @@ https://www.census.gov/popclock/
 
 ## Notes
 * Filtering criteria in primary specialty to define primary care physician are family medicine, nurse practitioner, general practice, preventative medicine, emergency medicine, physician assistant, internal medicine, pediatrice medicine, obstetrics / gynecology
+
+Tony and Jenny - I replaced the list in paragraph 3 of the analysis with the list of specialties above thinking we might be able to delete the notes section since it's the only thing in it. What do you think? 
 
 ## Roles:
 
