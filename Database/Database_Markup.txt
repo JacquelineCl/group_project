@@ -1,0 +1,26 @@
+-- Creating tables for Healthcare_ProjectDB
+CREATE TABLE physicians (
+     npi varchar(10),
+     grd_yr varchar(6),
+     pri_spec varchar(50),
+     cty varchar(50),
+     st varchar(2),
+     zip varchar(5),
+     ind_assgn varchar(1),
+     grp_assgn varchar(1)
+);
+CREATE TABLE income (
+     GeoFips varchar(5),
+     per_capita_income numeric
+);
+CREATE TABLE population (
+     GeoFips varchar(5),
+     population numeric,
+     pop_density float(20)
+);
+CREATE TABLE zip (
+     zip varchar(5),
+     st varchar(2),
+     GeoFips varchar(5),
+     county_name varchar(50)
+);
