@@ -36,7 +36,7 @@ A [tableau dashboard](https://public.tableau.com/views/Healthcare_Dispariities_P
 A [presentation](Resources/Healthcare_Disparities_Primary_Care_Access_Analysis.pdf) further outlines our approach, analysis, and results.
 
 ## Tools Used
-Jupyter Notebook, Python, Pandas, Matplotlib, NumPy, Pathlib, Sklearn.metrics, Tableau, PostgreSQL, Quick DBD
+Jupyter Notebook, Python, Pandas, Matplotlib, NumPy, Pathlib, Sklearn.metrics, Tableau, PostgreSQL, and Quick DBD
 
 ## Conceptual Entity Relationship Diagram 
 ERD showing relationships between tabular data sources
