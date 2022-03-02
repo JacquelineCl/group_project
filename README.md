@@ -38,13 +38,13 @@ The benefits of our model is its high accuracy score. A high accuracy score mean
 Originally, our model did not use oversampling, so the r-squared score was -.077, meaning there was no fit at all. By adding oversampling, this corrected the issue. Hyper tuning using SMOTE and SMOTEENN did not increase the accuracy or r-squared score of the model, however, it was discovered that undersampling greatly decreased both the accuracy and the r-squared score. 
 
 ### Confusion Matrix, Accuracy Score, and R-squared Score
-The confusion matrix 
+The confusion matrix is as follows: ![image](https://user-images.githubusercontent.com/67409852/156274456-342818c6-8dc9-49b6-bc69-ca08e24cfe44.png)
 
-![image](https://user-images.githubusercontent.com/67409852/156274456-342818c6-8dc9-49b6-bc69-ca08e24cfe44.png)
+For this model, there were 34 true positives, 0 true negatives, 2 false positives, and 722 false negatives. 
 
-Accuracy score: 99.9%
+* Accuracy score: 99.9%
 
-R-squared score: 93.8%
+* R-squared score: 93.8%
 
 ![image](https://user-images.githubusercontent.com/67409852/155629836-9228fc37-9503-4e67-89c9-416490144e39.png)
 
