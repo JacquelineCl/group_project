@@ -39,6 +39,7 @@ Originally, our model did not use oversampling, so the r-squared score was -.077
 
 ### Confusion Matrix, Accuracy Score, and R-squared Score
 The confusion matrix is as follows: 
+
 ![image](https://user-images.githubusercontent.com/67409852/156274456-342818c6-8dc9-49b6-bc69-ca08e24cfe44.png)
 
 For this model, there were 34 true positives, 0 true negatives, 2 false positives, and 722 false negatives. 
