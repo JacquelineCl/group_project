@@ -19,8 +19,19 @@ According to the data, any county with 0.488 primary care physicians per capita 
 Solutions to primary care physician disparities might include: virtual healthcare meetings (telehealth), providing loans to physicians to open new clinics, address primary care physician shortages by increasing funding for medical students to attend medical school, and empowering registered nurses legally and monetarily to provide care similar to a primary care physician. 
 
 ## Machine Learning Model
+### Data Preprocessing
+
+### Engineering and Selection of Model
 * Supervised Machine Learning: Logistic Regression
   * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistic Regression will separate the data into two categories, counties that will be underserved by primary care physicians, and counties that will be appropriately served by primary care physicians.
+
+### Training and Testing Split
+
+### Benefits and Limitations
+
+### Changes in model and hyper tuning
+
+### Confusion Matrix, Accuracy Score, and R-squared Score
 * Accuracy score: 99.9%
 * R-squared score: 93.8%
 
