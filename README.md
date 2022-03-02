@@ -29,7 +29,7 @@ Our three data sources were cleaned, standardizing the data, making sure all row
 ### Training and Testing Split
 The balance of our target values were 2881 to 148, so oversampling is used to improve this.
 
-![image](https://user-images.githubusercontent.com/67409852/156273491-a49e6c72-e034-44ba-9b35-05c91aa7bbd0.png)
+![image](https://user-images.githubusercontent.com/67409852/156273491-a49e6c72-e034-44ba-9b35-05c91aa7bbd0.png) ![image](https://user-images.githubusercontent.com/67409852/156273773-001f5cb1-3c83-40b3-a61e-0b87a7e3b2b6.png)
 
 ### Benefits and Limitations
 
