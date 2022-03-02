@@ -42,7 +42,7 @@ The confusion matrix is as follows:
 
 ![image](https://user-images.githubusercontent.com/67409852/156275612-62a873e4-0052-4914-b042-e13deefd7ee6.png)
 
-For this model, there were 34 true positives, 0 true negatives, 2 false positives, and 722 false negatives. 
+For this model, there were 34 true positives, 0 false positives, 2 false negatives, and 722 true negatives. 
 
 * Accuracy score: 99.9%
 
