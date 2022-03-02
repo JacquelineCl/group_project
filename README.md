@@ -95,7 +95,7 @@ https://www.ruralhealthinfo.org/funding/3543
 * Tableau Dashboard
 * Presentation
 
-### Jenny Johnson
+### Jennifer (Jenny) Johnson
 https://www.linkedin.com/in/jennifer-johnson-a32b88219/
 
 * Conceptual ERD
