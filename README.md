@@ -32,13 +32,15 @@ The balance of our target values were 2881 to 148, so oversampling is used to im
 ![image](https://user-images.githubusercontent.com/67409852/156273491-a49e6c72-e034-44ba-9b35-05c91aa7bbd0.png) ![image](https://user-images.githubusercontent.com/67409852/156273773-001f5cb1-3c83-40b3-a61e-0b87a7e3b2b6.png)
 
 ### Benefits and Limitations
+The benefits of our model is its high accuracy score. A high accuracy score means the model overall is working the way it's intended to and predicting data accurately almost 100% of the time. A limitation is that the r-squared score is on the cusp of being overfit, meaning there's the possibility that not all NEW data will accurately predicted. Another limitation is that the more data that is added and more estimators used, the slower the model becomes. 
 
-### Changes in model and hyper tuning
+### Changes in Model and Hyper Tuning
+Originally, our model did not use oversampling, so the r-squared score was -.077, meaning there was no fit at all. By adding oversampling, this corrected the issue. Hyper tuning using SMOTE and SMOTEENN did not increase the accuracy or r-squared score of the model, however, it was discovered that undersampling greatly decreased both the accuracy and the r-squared score. 
 
 ### Confusion Matrix, Accuracy Score, and R-squared Score
-Confusion Matrix
+The confusion matrix 
 
-![image](https://user-images.githubusercontent.com/67409852/156272502-72d856fe-c5db-4b94-8fe8-9ffea1d001ba.png)
+![image](https://user-images.githubusercontent.com/67409852/156274456-342818c6-8dc9-49b6-bc69-ca08e24cfe44.png)
 
 Accuracy score: 99.9%
 
