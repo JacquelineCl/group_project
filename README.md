@@ -20,12 +20,16 @@ Solutions to primary care physician disparities might include: virtual healthcar
 
 ## Machine Learning Model
 ### Data Preprocessing
+Our three data sources were cleaned, standardizing the data, making sure all rows were named appropriately, removing any rows with null values and any duplicate rows. Once the data sources were merged and all rows created, the rows for each state and each region were dropped, as the data was irrelevant to the machine learning model. The pcp_per_capita, pop_density, per_capita_income were removed for the same reason, and pcp_per_capita_bins was removed as it is the target feature.
 
 ### Engineering and Selection of Model
 * Supervised Machine Learning: Logistic Regression
   * We have a question we want to answer, therefore, supervised machine learning is the appropriate choice for this analysis. Logistic Regression will separate the data into two categories, counties that will be underserved by primary care physicians, and counties that will be appropriately served by primary care physicians.
 
 ### Training and Testing Split
+The balance of our target values were 2881 to 148, so oversampling is used to improve this.
+
+![image](https://user-images.githubusercontent.com/67409852/156273491-a49e6c72-e034-44ba-9b35-05c91aa7bbd0.png)
 
 ### Benefits and Limitations
 
