@@ -32,8 +32,12 @@ Solutions to primary care physician disparities might include: virtual healthcar
 ### Changes in model and hyper tuning
 
 ### Confusion Matrix, Accuracy Score, and R-squared Score
-* Accuracy score: 99.9%
-* R-squared score: 93.8%
+Confusion Matrix
+
+![image](https://user-images.githubusercontent.com/67409852/156272502-72d856fe-c5db-4b94-8fe8-9ffea1d001ba.png)
+
+Accuracy score: 99.9%
+R-squared score: 93.8%
 
 ![image](https://user-images.githubusercontent.com/67409852/155629836-9228fc37-9503-4e67-89c9-416490144e39.png)
 
