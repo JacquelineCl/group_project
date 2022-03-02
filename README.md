@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/67409852/155636523-5070e701-cf1b-4715-b3c7-b440497e2469.png)
 
 ## Analysis Results and Summary
-Disparities in healthcare are an every day reality in the United States, so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, a logistic regression model using oversampling, produces an accuracy score of 99.9% and a r-squared score of 93.8%. This model will predict if a county is underserved or appropriately served 99.9% of the time and can predict new data points 93.8% of the time. 
+Disparities in healthcare are an every day reality in the United States, so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, a logistic regression model using oversampling, produces an accuracy score of 99.9% and a r-squared score of 93.8%. This model will predict if a county is underserved or appropriately served 99.9% of the time and can predict new data points 93.8% of the time. This means that the model is slightly overfitted, meaning it is possible some new data points will not accurately be predicted. 
 
 ![image](https://user-images.githubusercontent.com/67409852/155261745-376a9a31-1e1e-4a56-a54e-3296e236bb6c.png)
 
@@ -55,6 +55,14 @@ PostgreSQL 11 used to house and query data
 
 ## References
 https://www.census.gov/popclock/
+
+https://www.ncsl.org/research/health/increasing-access-to-health-care-through-telehealth.aspx
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6367893/
+
+https://phdproject.org/educational-funding/
+
+https://www.ruralhealthinfo.org/funding/3543
 
 ## Roles:
 
