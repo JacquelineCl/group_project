@@ -95,7 +95,9 @@ https://www.ruralhealthinfo.org/funding/3543
 * Tableau Dashboard
 * Presentation
 
-### Jenny
+### Jenny Johnson
+https://www.linkedin.com/in/jennifer-johnson-a32b88219/
+
 * Conceptual ERD
 * Income and ZCTA data
 * Data Cleaning
