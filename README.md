@@ -88,7 +88,7 @@ https://phdproject.org/educational-funding/
 
 https://www.ruralhealthinfo.org/funding/3543
 
-## Collaborators
+## Contributors
 
 ### Jacqueline Clinesmith
 https://www.linkedin.com/in/jacqueline-clinesmith-883014a0/
