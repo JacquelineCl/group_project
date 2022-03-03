@@ -92,7 +92,7 @@ https://www.ruralhealthinfo.org/funding/3543
 
 ### Jacqueline Clinesmith
 https://www.linkedin.com/in/jacqueline-clinesmith-883014a0/
-* Machine Learning Model
+* Organization of commuication
 * Tableau Dashboard
 * Presentation
 
@@ -100,8 +100,6 @@ https://www.linkedin.com/in/jacqueline-clinesmith-883014a0/
 https://www.linkedin.com/in/jennifer-johnson-a32b88219/
 
 * Conceptual ERD
-* Income and ZCTA data
-* Data Cleaning
 * Machine Learning Model and Hyper Tuning
 * Analysis Summary
 * PostgreSQL Database 
