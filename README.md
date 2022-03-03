@@ -16,7 +16,7 @@ According to the data, any county with 0.488 primary care physicians per capita 
 
 ![image](https://user-images.githubusercontent.com/67409852/155660829-1977726b-b89a-4ad8-9aaf-edb1ceb451ae.png)
 
-Solutions to primary care physician disparities might include: virtual healthcare meetings (telehealth), providing loans to physicians to open new clinics, address primary care physician shortages by increasing funding for medical students to attend medical school, and empowering registered nurses legally and monetarily to provide care similar to a primary care physician. 
+Solutions to primary care physician disparities might include: increasing utilization of virtual healthcare meetings (telehealth), providing loans to physicians to open new clinics, address primary care physician shortages by increasing funding for medical students to attend medical school, and empowering registered nurses legally and monetarily to provide care similar to a primary care physician. 
 
 ## Machine Learning Model
 ### Data Preprocessing
