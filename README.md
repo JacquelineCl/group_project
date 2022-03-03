@@ -48,6 +48,12 @@ For this model, there were 34 true positives, 0 false positives, 2 false negativ
 
 * R-squared score: 93.8%
 
+* Precision score: 100% (quality of a positive prediction made by the model)
+
+* Sensitivity(recall): 94.4% (can predict true positives)
+
+* F1 score: 97.1% (balance between the precision and recall)
+
 ![image](https://user-images.githubusercontent.com/67409852/155629836-9228fc37-9503-4e67-89c9-416490144e39.png)
 
 ![image](https://user-images.githubusercontent.com/67409852/155629939-4a7dd7f4-edcb-468a-b076-66d02f3321b4.png)
