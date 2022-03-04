@@ -8,12 +8,12 @@ Physicians per capita is derived from dividing "pcp_count" by "population". The 
 
 ![image](https://user-images.githubusercontent.com/67409852/156695799-f5ec3c58-a090-4663-b716-a27fe1d76d23.png)
 
+![image](https://user-images.githubusercontent.com/67409852/155261513-a3b704ee-9511-422c-8186-f2e94538c9d2.png)
+
 ## Analysis Results and Summary
 Disparities in healthcare are an every day reality in the United States, so identifying ares for improvement is crucial for the health and well-being of communities. To answer the question "Are there are counties in the United States that will be underserved by primary care providers in the United States?", a supervised machine learning model is the most appropriate choice. Our model, a logistic regression model using oversampling, produces an accuracy score of 99.9% and a r-squared score of 93.8%. This model will predict if a county is underserved or appropriately served 99.9% of the time and can predict new data points 93.8% of the time. This means that the model is slightly overfitted, meaning it is possible some new data points will not accurately be predicted. 
 
 ![image](https://user-images.githubusercontent.com/67409852/155261745-376a9a31-1e1e-4a56-a54e-3296e236bb6c.png)
-
-![image](https://user-images.githubusercontent.com/67409852/155261513-a3b704ee-9511-422c-8186-f2e94538c9d2.png)
 
 Due to the data being split 19:1, the model must include oversampling and the removal of extraneous data. Before the logistic regression model included oversampling, the accuracy score was 96.2%, however, the r-squared score was -0.077%, meaning the model was an exceptionally poor fit and could not predict new data points with accuracy. Hyper tuning using SMOTE (Synthetic Minority Oversampling Technique) random oversampling and SMOTEENN (oversampling using SMOTE and cleaning using Edited Nearest Neighbor) using combination sampling does not improve the accuracy score or r-squared score of the model (both remain the same), and undersampling using random undersampling or cluster centroids undersampling lowers the accuracy score and drastically lowers the r-squared score, meaning the model is no longer a good fit and can no longer accurately predict new data. For this reason, undersampling the data should be avoided. 
 
