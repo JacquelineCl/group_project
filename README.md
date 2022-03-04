@@ -3,7 +3,7 @@
 ## Overview
 ![image](https://user-images.githubusercontent.com/67409852/155636523-5070e701-cf1b-4715-b3c7-b440497e2469.png)
 
-## Determining What "Underserved" and "Appropriately Served" Means
+## Defining "Underserved" and "Appropriately Served"
 Physicians per capita is derived from dividing "pcp_count" by "population". The mean for physicians per capita is 2.55, and the standard deviation is 2.06. It was decided that one standard deviation below the mean would be considered "underserved". Therefore, any county with less than .488 physicians per capita will be considered underserved, while every county equal to or about .488 physicians per capita is considered "appropriately served". 
 
 ![image](https://user-images.githubusercontent.com/67409852/156695799-f5ec3c58-a090-4663-b716-a27fe1d76d23.png)
