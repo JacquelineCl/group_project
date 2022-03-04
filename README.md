@@ -69,6 +69,8 @@ For this model, there were 34 true positives, 0 false positives, 2 false negativ
 
 ![image](https://user-images.githubusercontent.com/67409852/155629939-4a7dd7f4-edcb-468a-b076-66d02f3321b4.png)
 
+![image](https://user-images.githubusercontent.com/67409852/156708907-044655d6-4d5b-45bd-bfc2-03154a94f185.png)
+
 ## Tableau Dashboard
 A [tableau dashboard](https://public.tableau.com/views/Healthcare_Dispariities_Primary_Care_Access_Analysis/PCPAvailabilityDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) was created to visualize the data and allow for easy filtering by region and state.
 ![image](Resources/Tableau_dashboard.png)
