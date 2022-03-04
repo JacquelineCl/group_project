@@ -13,13 +13,17 @@ Physicians per capita is derived from dividing "pcp_count" by "population". The 
 
 ![image](https://user-images.githubusercontent.com/67409852/155261513-a3b704ee-9511-422c-8186-f2e94538c9d2.png)
 
+### Defining a Primary Care Physician
+
+A primary care physician is defined as someone who can perform basic medical tests to evaluate a person's overall health. A primary care physician could specialize in family medicine, nurse practitioner, general practice, preventative medicine, emergency medicine, physician assistant, internal medicine, pediatric medicine, obstetrics, or gynecology.
+
+![image](https://user-images.githubusercontent.com/67409852/155660829-1977726b-b89a-4ad8-9aaf-edb1ceb451ae.png)
+
 ### Running the Model
 
 Due to the data being split 19:1, the model must include oversampling and the removal of extraneous data. Before the logistic regression model included oversampling, the accuracy score was 96.2%, however, the r-squared score was -0.077%, meaning the model was an exceptionally poor fit and could not predict new data points with accuracy. Hyper tuning using SMOTE (Synthetic Minority Oversampling Technique) random oversampling and SMOTEENN (oversampling using SMOTE and cleaning using Edited Nearest Neighbor) using combination sampling does not improve the accuracy score or r-squared score of the model (both remain the same), and undersampling using random undersampling or cluster centroids undersampling lowers the accuracy score and drastically lowers the r-squared score, meaning the model is no longer a good fit and can no longer accurately predict new data. For this reason, undersampling the data should be avoided. 
 
-According to the data, any county with 0.488 primary care physicians per capita or less is "underserved". Out of 3,092 counties, 148 are underserved, or ~5% of all counties, while 2881 counties, or ~95% of counties are appropriately served. While having 95% of the population adequately served is good, 5% of Americans being underserved means over 17 million Americans do not have access to a primary care physician. A primary care physician is defined as someone who can perform basic medical tests to evaluate a person's overall health. A primary care physician could specialize in family medicine, nurse practitioner, general practice, preventative medicine, emergency medicine, physician assistant, internal medicine, pediatric medicine, obstetrics, or gynecology.
-
-![image](https://user-images.githubusercontent.com/67409852/155660829-1977726b-b89a-4ad8-9aaf-edb1ceb451ae.png)
+According to the data, any county with 0.488 primary care physicians per capita or less is "underserved". Out of 3,092 counties, 148 are underserved, or ~5% of all counties, while 2881 counties, or ~95% of counties are appropriately served. While having 95% of the population adequately served is good, 5% of Americans being underserved means over 17 million Americans do not have access to a primary care physician. 
 
 ### Solutions to Primary Care Disparities
 
