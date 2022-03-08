@@ -111,20 +111,9 @@ https://www.ruralhealthinfo.org/funding/3543
 
 ### Jacqueline Clinesmith
 https://www.linkedin.com/in/jacqueline-clinesmith-883014a0/
-* Organization of commuication
-* Tableau Dashboard
-* Presentation
 
 ### Jennifer (Jenny) Johnson
 https://www.linkedin.com/in/jennifer-johnson-a32b88219/
 
-* Conceptual ERD
-* Machine Learning Model and Hyper Tuning
-* Analysis Summary
-* PostgreSQL Database 
-
 ### Tony Ferri
 https://www.linkedin.com/in/tony-ferri-7442474/
-* Sources for Income & Population
-* Data Cleaning & Merging
-* PostgreSQL Database
